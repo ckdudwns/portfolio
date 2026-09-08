@@ -23,3 +23,15 @@
 - **주요 기여:** ERD·플로우차트 작성, 데이터 저장 구조 구현, 측정 데이터 업로드·조회·재예측 API 개발
 
 [상세 소개](wivue.md) · [팀 저장소](https://github.com/gmldbs3104/Union-Summer-Project-2025)
+
+
+### 기사리딩앱 — 기사 읽기 서비스
+
+기사 읽기와 추천 기능을 제공하는 **4인 팀 프로젝트**로, 백엔드 서버와 Flutter 앱 개발을 담당했습니다.
+
+- **개발 기간:** 2026년 4~5월
+- **담당:** 백엔드 및 Flutter 앱 개발
+- **기술:** Python, Flutter, Dart, ngrok
+- **주요 기여:** 서버 API 구현, Flutter 앱 개발, ngrok을 활용한 앱·로컬 백엔드 연동
+
+[상세 소개](article-reading-app.md) · [팀 저장소](https://github.com/arimmiii/2026-1-CSC4004-1-team07)
