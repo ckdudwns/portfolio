@@ -8,6 +8,7 @@
 - **담당 역할:** 플레이어 시스템, 스토리, 아이템 개발
 - **사용 기술:** Unity 3D, C#, GitHub
 - **팀 저장소:** [Game-Portfolio](https://github.com/ckdudwns/Game-Portfolio)
+- [▶ 게임 플레이 시연 영상](https://youtu.be/dbk29tMD8u8)
 
 ## 게임 소개
 
