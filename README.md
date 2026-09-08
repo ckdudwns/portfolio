@@ -46,7 +46,7 @@
 - **기술:** Unity 3D, C#
 - **주요 기여:** 플레이어 이동·사격·무기 교체, ScriptableObject 기반 아이템·인벤토리, 스마트폰 상호작용 구현
 
-[상세 소개](escape-the-final-file.md) · [팀 저장소](https://github.com/ckdudwns/Game-Portfolio)
+[시연 영상](https://youtu.be/dbk29tMD8u8) · [상세 소개](escape-the-final-file.md) · [팀 저장소](https://github.com/ckdudwns/Game-Portfolio)
 
 
 ### 마법공방의 대장장이 - 웹게임
