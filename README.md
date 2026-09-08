@@ -49,7 +49,7 @@
 [상세 소개](escape-the-final-file.md) · [팀 저장소](https://github.com/ckdudwns/Game-Portfolio)
 
 
-### 마법공방의 대장장이
+### 마법공방의 대장장이 - 웹게임
 
 플레이어가 무기 파츠를 직접 그리고, 설계도와 원소를 조합해 AI로 무기를 완성하는 **판타지 대장장이 웹게임**입니다.
 
