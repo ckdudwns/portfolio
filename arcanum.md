@@ -1,4 +1,4 @@
-# ARCANUM — 원소무기 공방
+# 마법공방의 대장장이 - 웹게임
 
 플레이어가 무기 파츠를 직접 그리고, 설계도와 원소를 조합해 하나의 무기를 제작하는 판타지 대장장이 웹게임입니다. 팀 프로젝트에서 전체 구현을 담당했으며, 약 3주 동안 개발했습니다.
 
@@ -144,6 +144,6 @@ OpenAI 이미지 편집 API
 
 ## 플레이 링크
 
-[ARCANUM — 원소무기 공방 플레이](https://arcanum-elemental-forge.chayeongjun0618.chatgpt.site)
+[마법공방의 대장장이 - 웹게임 플레이](https://arcanum-elemental-forge.chayeongjun0618.chatgpt.site)
 
 
