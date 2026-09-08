@@ -35,6 +35,26 @@
 
 관련 DB·모델·설정을 함께 백업하고, 파일 해시와 SQLite 무결성을 확인하는 백업·복구 절차를 구성했습니다. 복구 검사는 별도 폴더에서 수행하며, 5분 주기 상태 점검과 일일 백업 예약을 제공합니다.
 
+## 핵심 코드 및 PR
+
+### 1. 데이터 수집과 재전송 중복 방지
+
+장치·부팅 식별자·구간 순번을 기준으로 중복 요청을 처리하고, 동일 식별자의 내용 충돌과 순서가 역전된 입력을 거부합니다.
+
+[수집·중복 처리 코드](https://github.com/ckdudwns/MotorDiagnosis/blob/2e8e67c56297dea5419fab8ff54350bc1a3372ae/motor_diagnosis/vibration_windows.py#L161) · [관련 PR #35](https://github.com/ckdudwns/MotorDiagnosis/pull/35)
+
+### 2. 이상 이벤트 상태 관리
+
+연속 3구간의 판정으로 이벤트를 생성·유지·해제하고, 누락·품질 불량·모델 변경을 구분합니다. 누적 상태와 이벤트를 저장해 재시작 이후에도 처리 흐름을 이어갑니다.
+
+[이벤트 처리 코드](https://github.com/ckdudwns/MotorDiagnosis/blob/2e8e67c56297dea5419fab8ff54350bc1a3372ae/motor_diagnosis/rf66_events.py#L42) · [관련 PR #39](https://github.com/ckdudwns/MotorDiagnosis/pull/39)
+
+### 3. 운영 백업 검증과 복구
+
+백업 파일의 크기·해시와 SQLite 무결성을 검사하고, 새 폴더에 복원한 뒤 다시 검증하는 복구 절차를 구현했습니다.
+
+[백업 검증·복구 코드](https://github.com/ckdudwns/MotorDiagnosis/blob/2e8e67c56297dea5419fab8ff54350bc1a3372ae/motor_diagnosis/operations.py#L268) · [관련 PR #40](https://github.com/ckdudwns/MotorDiagnosis/pull/40)
+
 ## 검증 기록
 
 아래 결과는 2026년 9월 8일 작품 소개 보고서에 기록된 내용입니다.
