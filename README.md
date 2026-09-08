@@ -47,3 +47,16 @@
 - **주요 기여:** 플레이어 이동·사격·무기 교체, ScriptableObject 기반 아이템·인벤토리, 스마트폰 상호작용 구현
 
 [상세 소개](escape-the-final-file.md) · [팀 저장소](https://github.com/ckdudwns/Game-Portfolio)
+
+
+### 마법공방의 대장장이
+
+플레이어가 무기 파츠를 직접 그리고, 설계도와 원소를 조합해 AI로 무기를 완성하는 **판타지 대장장이 웹게임**입니다.
+
+- **개발 기간:** 약 3주
+- **프로젝트 형태:** 팀 프로젝트
+- **담당:** 전체 구현 및 경매장 알고리즘 설계
+- **기술:** TypeScript, React, Tailwind CSS, Cloudflare Workers, OpenAI 이미지 API
+- **주요 기여:** 파츠 드로잉·설계도 관리, AI 무기 제작 API 연동, 제작 미니게임, 의뢰 평가·경제 규칙 구현, 경매장 알고리즘 설계·구현
+
+[게임 플레이](https://arcanum-elemental-forge.chayeongjun0618.chatgpt.site) · [상세 소개](arcanum.md)
