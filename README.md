@@ -35,3 +35,15 @@
 - **주요 기여:** 서버 API 구현, Flutter 앱 개발, ngrok을 활용한 앱·로컬 백엔드 연동
 
 [상세 소개](article-reading-app.md) · [팀 저장소](https://github.com/arimmiii/2026-1-CSC4004-1-team07)
+
+
+### Escape: The Final File — 1인칭 생존 슈팅 게임
+
+좀비로 인해 고립된 섬에서 백신 데이터를 회수하고, 여러 탈출 경로를 탐색하는 **4인 팀 게임 프로젝트**입니다.
+
+- **개발 기간:** 2025년 10월~12월 초
+- **담당:** 플레이어 시스템·스토리·아이템 개발
+- **기술:** Unity 3D, C#
+- **주요 기여:** 플레이어 이동·사격·무기 교체, ScriptableObject 기반 아이템·인벤토리, 스마트폰 상호작용 구현
+
+[상세 소개](escape-the-final-file.md) · [팀 저장소](https://github.com/ckdudwns/Game-Portfolio)
