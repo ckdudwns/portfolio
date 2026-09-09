@@ -1,5 +1,7 @@
 # Escape: The Final File — 1인칭 생존 슈팅 게임
 
+[← 포트폴리오 목록](../README.md)
+
 좀비로 인해 고립된 섬에서 백신 데이터를 회수하고 탈출하는 Unity 기반 1인칭 생존 슈팅 게임입니다. 4인 팀으로 개발했으며, 플레이어 시스템·스토리·아이템을 담당했습니다.
 
 - **개발 기간:** 2025년 10월~12월 초
@@ -34,7 +36,7 @@ ScriptableObject 기반 ItemData에 아이템 이름·아이콘·설명 등 공�
 
 InventoryManager에서 보유 아이템을 관리하고 슬롯 UI와 연결했습니다. 회복 아이템처럼 사용할 수 있는 아이템과, 휴대폰·열쇠 등 진행에 필요한 아이템을 게임 기능에 연결했습니다.
 
-![아이템을 관리하는 인벤토리 화면](escape-inventory.png)
+![아이템을 관리하는 인벤토리 화면](../assets/images/escape-the-final-file/escape-inventory.png)
 
 *팀 결과보고서에 수록된 인벤토리 화면입니다.*
 
@@ -44,7 +46,7 @@ InventoryManager에서 보유 아이템을 관리하고 슬롯 UI와 연결했�
 
 스마트폰을 열면 총기와 조준점을 숨기고 마우스 커서를 활성화해 UI를 조작할 수 있도록 구성했습니다. 스마트폰은 메시지와 지도를 통해 다음 목표의 단서를 제공하는 기능입니다.
 
-<img src="escape-smartphone.png" alt="임무 단서를 제공하는 스마트폰 메시지 UI" width="300">
+<img src="../assets/images/escape-the-final-file/escape-smartphone.png" alt="임무 단서를 제공하는 스마트폰 메시지 UI" width="300">
 
 *팀 결과보고서에 수록된 스마트폰 메시지 UI이며, Unity 편집기에서 촬영한 화면입니다.*
 
